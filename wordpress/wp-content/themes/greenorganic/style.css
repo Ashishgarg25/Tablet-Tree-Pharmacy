@@ -1,0 +1,234 @@
+/*
+Theme Name: Greenorganic
+Theme URI: https://apusthemes.com/greenorganic
+Author: ApusTheme
+Author URI: https://apusthemes.com/
+Description: Greenorganic is clean theme, it's used Apus Framework.
+Version: 2.5
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: greenorganic
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+img{
+    max-width: 100%;
+    height:auto;
+ }
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000; /* Above WP toolbar. */
+}
+.gallery-caption {
+    box-sizing: border-box;
+}
+.bypostauthor{
+    box-sizing: border-box;
+}
+.mini-cart .count {
+    position: absolute;
+    top: -10px;
+    right: 0;
+    background-color: #90bf2a;
+    color: #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    min-width: 18px;
+    padding: 3px 5px;
+    font-size: 11px;
+    z-index: 1;
+    line-height: 1;
+    text-align: center;
+}
+.wishlist-icon .count {
+    top: -12px;
+}
+@media (max-width: 767px) {
+    .woocommerce table.shop_table tbody .actions {
+        padding: 20px 0px;
+    }
+    .apus-shop-menu .content-inner #apus-orderby {
+        margin-left: 5px;
+    }
+    .details-product .apus-social-share {
+        margin-top: 0px;
+    }
+    .details-product .apus-social-share a {
+        margin-right: 15px;
+    }
+    .details-product .information .product_meta {
+        margin-top: 15px;
+    }
+}
+@media (max-width: 991px) {
+    body.woocommerce .main-container {
+        padding-top: 20px;
+    }
+}
+.navbar-nav.megamenu > li > a > .text-label {
+    font-size: 11px;
+    padding: 0 5px;
+    background: #5bc0de;
+    color: #fff;
+    position: absolute;
+    right: -15px;
+    top: -18px;
+    line-height: 2;
+    display: inline-block;
+    text-transform: capitalize;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+.navbar-nav.megamenu > li > a > .text-label::before {
+    content: '';
+    position: absolute;
+    z-index: 9;
+    top: 100%;
+    left: 7px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #5bc0de transparent transparent #5bc0de;
+}
+.navbar-nav.megamenu > li > a > .text-label.label-hot::before {
+    border-color: #f65b47 transparent transparent #f65b47;
+}
+.navbar-nav.megamenu > li > a > .text-label.label-new::before {
+    border-color: #90bf2a transparent transparent #90bf2a;
+}
+.navbar-nav.megamenu > li > a > .text-label.label-new {
+    background: #90bf2a;
+}
+.navbar-nav.megamenu .dropdown-menu .text-label {
+    font-size: 10px;
+    color: #90bf2a;
+    position: relative;
+    top: -7px;
+    right: inherit;
+    text-transform: uppercase;
+}
+.navbar-nav.megamenu .dropdown-menu .text-label.label-hot {
+    color: #f65b47;
+    background: inherit;
+}
+
+.apus-topbar .social > li a {
+    border: 1px solid #fff;
+}
+.apus-topbar .social > li a:hover, .apus-topbar .social > li a:active {
+    border: 1px solid #ddd;
+    color: #ddd;
+}
+.apus-topcart .dropdown-menu .cart_list {
+    max-height: 350px;
+    overflow: hidden;
+}
+.shopping_cart_content .cart_list .cart-main-content .remove {
+    padding: 0 5px;
+}
